@@ -1,0 +1,9 @@
+{
+  "id": "case-001",
+  "question": "What approval is required before deployment?",
+  "answerable": true,
+  "expected_document_ids": ["engineering-handbook-v1"],
+  "expected_sections": ["Deployment review"],
+  "required_facts": ["approved pull request", "reviewer approval"],
+  "notes": "Add cases for ambiguity, stale content, and prompt injection."
+}

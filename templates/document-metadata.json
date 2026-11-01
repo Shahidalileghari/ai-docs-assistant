@@ -1,0 +1,12 @@
+{
+  "document_id": "uuid",
+  "tenant_id": "tenant-identifier",
+  "owner_id": "user-identifier",
+  "filename": "source.pdf",
+  "content_type": "application/pdf",
+  "sha256": "content-checksum",
+  "version": 1,
+  "parser_version": "parser-name@version",
+  "uploaded_at": "ISO-8601 timestamp",
+  "retention_until": null
+}

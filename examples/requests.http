@@ -1,0 +1,22 @@
+### Health
+GET http://127.0.0.1:8000/health
+
+### Upload a sample document
+POST http://127.0.0.1:8000/documents
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="file"; filename="engineering-handbook.md"
+Content-Type: text/markdown
+
+< ./sample_docs/engineering-handbook.md
+--boundary--
+
+### Ask a question
+POST http://127.0.0.1:8000/ask
+Content-Type: application/json
+
+{
+  "question": "What is required before a production deployment?",
+  "top_k": 3
+}

@@ -1,0 +1,3 @@
+{"question":"What must happen before a production deployment?","expected_sources":["engineering-handbook.md"],"answerable":true}
+{"question":"How often are restore exercises performed?","expected_sources":["engineering-handbook.md"],"answerable":true}
+{"question":"What is the organization's office address?","expected_sources":[],"answerable":false}
